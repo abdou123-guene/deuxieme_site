@@ -1,6 +1,6 @@
 # Sources de données & métadonnées en géomatique
 
-# #1) Pourquoi ces deux sujets sont indissociables
+## 1) Pourquoi ces deux sujets sont indissociables
 En géomatique, une donnée n’existe vraiment que si l’on sait d’où elle vient, ce qu’elle représente, comment elle a été produite et comment on peut la réutiliser.
 
 Les sources de données définissent le quoi (contenu, étendue, précision, fréquence de mise à jour).
@@ -133,3 +133,4 @@ CRS implicite → stocker l’EPSG dans la fiche + vérifier au chargement.
 | conf_score   | int    | 0–100  | —                                       | Score de confiance (classification)|
 | date_obs     | date   | —      | AAAA‑MM‑JJ                               | Date d’observation                 |
 Traitements non reproductibles → consigner scripts & versions (QGIS/GRASS/GDAL/Python/R).
+
